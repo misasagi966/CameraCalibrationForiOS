@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  cameracalib
+//  RealTimeProcessing
 //
-//  Created by Ryota Nakai on 2015/11/11.
-//  Copyright © 2015年 Ryota Nakai. All rights reserved.
+//  Created by hirai.yuki on 2013/04/07.
+//  Copyright (c) 2013年 hirai.yuki. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,6 +12,4 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-

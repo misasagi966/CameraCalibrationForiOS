@@ -2,8 +2,8 @@
 //  ViewController.h
 //  cameracalib
 //
-//  Created by Ryota Nakai on 2015/11/11.
-//  Copyright © 2015年 Ryota Nakai. All rights reserved.
+//  Created by Misasagi on H27/11/02.
+//  Copyright © 平成27年 Misasagi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

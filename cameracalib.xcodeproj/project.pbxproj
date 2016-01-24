@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5AE6FDA1BF3408600EA4D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AE6FD91BF3408600EA4D66 /* main.m */; };
-		A5AE6FDD1BF3408600EA4D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AE6FDC1BF3408600EA4D66 /* AppDelegate.m */; };
-		A5AE6FE01BF3408600EA4D66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AE6FDF1BF3408600EA4D66 /* ViewController.m */; };
+		A52F58681BF3C77500097BC3 /* CameraCalibUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = A52F58671BF3C77500097BC3 /* CameraCalibUtil.mm */; };
 		A5AE6FE31BF3408600EA4D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AE6FE11BF3408600EA4D66 /* Main.storyboard */; };
 		A5AE6FE51BF3408600EA4D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AE6FE41BF3408600EA4D66 /* Assets.xcassets */; };
 		A5AE6FE81BF3408600EA4D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AE6FE61BF3408600EA4D66 /* LaunchScreen.storyboard */; };
 		A5AE6FF31BF3408600EA4D66 /* cameracalibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AE6FF21BF3408600EA4D66 /* cameracalibTests.m */; };
 		A5AE6FFE1BF3408600EA4D66 /* cameracalibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AE6FFD1BF3408600EA4D66 /* cameracalibUITests.m */; };
+		A5AE700D1BF3416E00EA4D66 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5AE700B1BF3416E00EA4D66 /* AppDelegate.mm */; };
+		A5AE700E1BF3416E00EA4D66 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5AE700C1BF3416E00EA4D66 /* ViewController.mm */; };
+		A5AE70101BF3417F00EA4D66 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5AE700F1BF3417F00EA4D66 /* main.mm */; };
+		A5AE701A1BF3419200EA4D66 /* AVFoundationUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5AE70161BF3419200EA4D66 /* AVFoundationUtil.mm */; };
+		A5AE701B1BF3419200EA4D66 /* MonochromeFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5AE70171BF3419200EA4D66 /* MonochromeFilter.mm */; };
+		A5AE701C1BF3419200EA4D66 /* OpenCVUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5AE70181BF3419200EA4D66 /* OpenCVUtil.mm */; };
+		A5AE701E1BF3430900EA4D66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE701D1BF3430900EA4D66 /* AudioToolbox.framework */; };
+		A5AE70201BF3431100EA4D66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE701F1BF3431100EA4D66 /* Foundation.framework */; };
+		A5AE70221BF3431E00EA4D66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE70211BF3431E00EA4D66 /* UIKit.framework */; };
+		A5AE70241BF3432D00EA4D66 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE70231BF3432D00EA4D66 /* QuartzCore.framework */; };
+		A5AE70261BF3433800EA4D66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE70251BF3433800EA4D66 /* CoreGraphics.framework */; };
+		A5AE70281BF3434000EA4D66 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE70271BF3434000EA4D66 /* CoreAudio.framework */; };
+		A5AE702A1BF3434B00EA4D66 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE70291BF3434B00EA4D66 /* CoreMedia.framework */; };
+		A5AE702C1BF3435300EA4D66 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE702B1BF3435300EA4D66 /* CoreImage.framework */; };
+		A5AE702E1BF3435B00EA4D66 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE702D1BF3435B00EA4D66 /* AssetsLibrary.framework */; };
+		A5AE70301BF3436600EA4D66 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE702F1BF3436600EA4D66 /* Accelerate.framework */; };
+		A5AE70321BF3436D00EA4D66 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE70311BF3436D00EA4D66 /* AVFoundation.framework */; };
+		A5AE70351BF343D100EA4D66 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE70341BF343D100EA4D66 /* opencv2.framework */; };
+		A5AE70381BF344F000EA4D66 /* cameracalib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5AE70361BF344F000EA4D66 /* cameracalib.xcdatamodeld */; };
+		A5AE703A1BF3468300EA4D66 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AE70391BF3468300EA4D66 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A52F58661BF3C73300097BC3 /* CameraCalibUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraCalibUtil.h; sourceTree = "<group>"; };
+		A52F58671BF3C77500097BC3 /* CameraCalibUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraCalibUtil.mm; sourceTree = "<group>"; };
 		A5AE6FD51BF3408600EA4D66 /* cameracalib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameracalib.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5AE6FD91BF3408600EA4D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5AE6FDB1BF3408600EA4D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A5AE6FDC1BF3408600EA4D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A5AE6FDE1BF3408600EA4D66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5AE6FDF1BF3408600EA4D66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A5AE6FE21BF3408600EA4D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5AE6FE41BF3408600EA4D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5AE6FE71BF3408600EA4D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,30 @@
 		A5AE6FF91BF3408600EA4D66 /* cameracalibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cameracalibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AE6FFD1BF3408600EA4D66 /* cameracalibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameracalibUITests.m; sourceTree = "<group>"; };
 		A5AE6FFF1BF3408600EA4D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AE700B1BF3416E00EA4D66 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		A5AE700C1BF3416E00EA4D66 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		A5AE700F1BF3417F00EA4D66 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		A5AE70121BF3419200EA4D66 /* cameracalib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cameracalib-Prefix.pch"; sourceTree = "<group>"; };
+		A5AE70131BF3419200EA4D66 /* MonochromeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonochromeFilter.h; sourceTree = "<group>"; };
+		A5AE70141BF3419200EA4D66 /* OpenCVUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVUtil.h; sourceTree = "<group>"; };
+		A5AE70151BF3419200EA4D66 /* AVFoundationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFoundationUtil.h; sourceTree = "<group>"; };
+		A5AE70161BF3419200EA4D66 /* AVFoundationUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AVFoundationUtil.mm; sourceTree = "<group>"; };
+		A5AE70171BF3419200EA4D66 /* MonochromeFilter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MonochromeFilter.mm; sourceTree = "<group>"; };
+		A5AE70181BF3419200EA4D66 /* OpenCVUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVUtil.mm; sourceTree = "<group>"; };
+		A5AE701D1BF3430900EA4D66 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A5AE701F1BF3431100EA4D66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5AE70211BF3431E00EA4D66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5AE70231BF3432D00EA4D66 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A5AE70251BF3433800EA4D66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5AE70271BF3434000EA4D66 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A5AE70291BF3434B00EA4D66 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A5AE702B1BF3435300EA4D66 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A5AE702D1BF3435B00EA4D66 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A5AE702F1BF3436600EA4D66 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A5AE70311BF3436D00EA4D66 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A5AE70341BF343D100EA4D66 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = cameracalib/opencv2.framework; sourceTree = "<group>"; };
+		A5AE70371BF344F000EA4D66 /* testsingleview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testsingleview.xcdatamodel; sourceTree = "<group>"; };
+		A5AE70391BF3468300EA4D66 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AE703A1BF3468300EA4D66 /* CoreVideo.framework in Frameworks */,
+				A5AE70351BF343D100EA4D66 /* opencv2.framework in Frameworks */,
+				A5AE70321BF3436D00EA4D66 /* AVFoundation.framework in Frameworks */,
+				A5AE70301BF3436600EA4D66 /* Accelerate.framework in Frameworks */,
+				A5AE702E1BF3435B00EA4D66 /* AssetsLibrary.framework in Frameworks */,
+				A5AE702C1BF3435300EA4D66 /* CoreImage.framework in Frameworks */,
+				A5AE702A1BF3434B00EA4D66 /* CoreMedia.framework in Frameworks */,
+				A5AE70281BF3434000EA4D66 /* CoreAudio.framework in Frameworks */,
+				A5AE70261BF3433800EA4D66 /* CoreGraphics.framework in Frameworks */,
+				A5AE70241BF3432D00EA4D66 /* QuartzCore.framework in Frameworks */,
+				A5AE70221BF3431E00EA4D66 /* UIKit.framework in Frameworks */,
+				A5AE70201BF3431100EA4D66 /* Foundation.framework in Frameworks */,
+				A5AE701E1BF3430900EA4D66 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +135,19 @@
 		A5AE6FCC1BF3408600EA4D66 = {
 			isa = PBXGroup;
 			children = (
+				A5AE70391BF3468300EA4D66 /* CoreVideo.framework */,
+				A5AE70341BF343D100EA4D66 /* opencv2.framework */,
+				A5AE70311BF3436D00EA4D66 /* AVFoundation.framework */,
+				A5AE702F1BF3436600EA4D66 /* Accelerate.framework */,
+				A5AE702D1BF3435B00EA4D66 /* AssetsLibrary.framework */,
+				A5AE702B1BF3435300EA4D66 /* CoreImage.framework */,
+				A5AE70291BF3434B00EA4D66 /* CoreMedia.framework */,
+				A5AE70271BF3434000EA4D66 /* CoreAudio.framework */,
+				A5AE70251BF3433800EA4D66 /* CoreGraphics.framework */,
+				A5AE70231BF3432D00EA4D66 /* QuartzCore.framework */,
+				A5AE70211BF3431E00EA4D66 /* UIKit.framework */,
+				A5AE701F1BF3431100EA4D66 /* Foundation.framework */,
+				A5AE701D1BF3430900EA4D66 /* AudioToolbox.framework */,
 				A5AE6FD71BF3408600EA4D66 /* cameracalib */,
 				A5AE6FF11BF3408600EA4D66 /* cameracalibTests */,
 				A5AE6FFC1BF3408600EA4D66 /* cameracalibUITests */,
@@ -102,12 +169,22 @@
 			isa = PBXGroup;
 			children = (
 				A5AE6FDB1BF3408600EA4D66 /* AppDelegate.h */,
-				A5AE6FDC1BF3408600EA4D66 /* AppDelegate.m */,
 				A5AE6FDE1BF3408600EA4D66 /* ViewController.h */,
-				A5AE6FDF1BF3408600EA4D66 /* ViewController.m */,
+				A5AE70121BF3419200EA4D66 /* cameracalib-Prefix.pch */,
+				A5AE70131BF3419200EA4D66 /* MonochromeFilter.h */,
+				A5AE70141BF3419200EA4D66 /* OpenCVUtil.h */,
+				A52F58661BF3C73300097BC3 /* CameraCalibUtil.h */,
+				A52F58671BF3C77500097BC3 /* CameraCalibUtil.mm */,
+				A5AE70151BF3419200EA4D66 /* AVFoundationUtil.h */,
+				A5AE70161BF3419200EA4D66 /* AVFoundationUtil.mm */,
+				A5AE70361BF344F000EA4D66 /* cameracalib.xcdatamodeld */,
+				A5AE70171BF3419200EA4D66 /* MonochromeFilter.mm */,
+				A5AE70181BF3419200EA4D66 /* OpenCVUtil.mm */,
 				A5AE6FE11BF3408600EA4D66 /* Main.storyboard */,
 				A5AE6FE41BF3408600EA4D66 /* Assets.xcassets */,
 				A5AE6FE61BF3408600EA4D66 /* LaunchScreen.storyboard */,
+				A5AE700B1BF3416E00EA4D66 /* AppDelegate.mm */,
+				A5AE700C1BF3416E00EA4D66 /* ViewController.mm */,
 				A5AE6FE91BF3408600EA4D66 /* Info.plist */,
 				A5AE6FD81BF3408600EA4D66 /* Supporting Files */,
 			);
@@ -117,7 +194,7 @@
 		A5AE6FD81BF3408600EA4D66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5AE6FD91BF3408600EA4D66 /* main.m */,
+				A5AE700F1BF3417F00EA4D66 /* main.mm */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,6 +284,7 @@
 				TargetAttributes = {
 					A5AE6FD41BF3408600EA4D66 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G84H5TQ7KD;
 					};
 					A5AE6FED1BF3408600EA4D66 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -270,9 +348,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AE6FE01BF3408600EA4D66 /* ViewController.m in Sources */,
-				A5AE6FDD1BF3408600EA4D66 /* AppDelegate.m in Sources */,
-				A5AE6FDA1BF3408600EA4D66 /* main.m in Sources */,
+				A5AE70381BF344F000EA4D66 /* cameracalib.xcdatamodeld in Sources */,
+				A5AE70101BF3417F00EA4D66 /* main.mm in Sources */,
+				A5AE700D1BF3416E00EA4D66 /* AppDelegate.mm in Sources */,
+				A5AE701C1BF3419200EA4D66 /* OpenCVUtil.mm in Sources */,
+				A5AE700E1BF3416E00EA4D66 /* ViewController.mm in Sources */,
+				A5AE701B1BF3419200EA4D66 /* MonochromeFilter.mm in Sources */,
+				A52F58681BF3C77500097BC3 /* CameraCalibUtil.mm in Sources */,
+				A5AE701A1BF3419200EA4D66 /* AVFoundationUtil.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +496,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cameracalib",
+				);
+				GCC_PREFIX_HEADER = "cameracalib/cameracalib-Prefix.pch";
 				INFOPLIST_FILE = cameracalib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = Homework.cameracalib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -424,10 +519,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cameracalib",
+				);
+				GCC_PREFIX_HEADER = "cameracalib/cameracalib-Prefix.pch";
 				INFOPLIST_FILE = cameracalib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = Homework.cameracalib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -498,6 +605,7 @@
 				A5AE70041BF3408600EA4D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5AE70051BF3408600EA4D66 /* Build configuration list for PBXNativeTarget "cameracalibTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +614,7 @@
 				A5AE70071BF3408600EA4D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5AE70081BF3408600EA4D66 /* Build configuration list for PBXNativeTarget "cameracalibUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,8 +623,22 @@
 				A5AE700A1BF3408600EA4D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5AE70361BF344F000EA4D66 /* cameracalib.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5AE70371BF344F000EA4D66 /* testsingleview.xcdatamodel */,
+			);
+			currentVersion = A5AE70371BF344F000EA4D66 /* testsingleview.xcdatamodel */;
+			path = cameracalib.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A5AE6FCD1BF3408600EA4D66 /* Project object */;
 }
